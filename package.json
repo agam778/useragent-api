@@ -1,0 +1,27 @@
+{
+  "name": "useragent-api",
+  "version": "0.1.0",
+  "description": "A (Very Simple) API which shows you the latest user-agent for different browsers and devices",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agam778/useragent-api.git"
+  },
+  "keywords": [
+    "api",
+    "nodejs",
+    "useragent"
+  ],
+  "author": "Agampreet Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agam778/useragent-api/issues"
+  },
+  "homepage": "https://github.com/agam778/useragent-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
