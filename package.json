@@ -2,9 +2,9 @@
   "name": "useragent-api",
   "version": "0.1.0",
   "description": "A (Very Simple) API which shows you the latest user-agent for different browsers and devices",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
