@@ -13,6 +13,11 @@ app.get('/android', (req, res) => {
   res.sendFile(path.join(__dirname, 'android.json'));
 })
 
+app.get('/windows', (req, res) => {
+  res.header("Content-Type",'application/json');
+  res.sendFile(path.join(__dirname, 'windows.json'));
+})
+
 app.listen(port, () => {
   console.log(`API listening at http://localhost:8080`);
 });
