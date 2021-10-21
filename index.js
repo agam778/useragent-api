@@ -71,21 +71,6 @@ app.get('/:os/:browser', (req, res) => {
   send(res, dataArray);
 });
 
-app.get("/chromeos", (req, res) => {
-  res.header("Content-Type", "application/json");
-  res.sendFile(path.join(__dirname, "data/chromeos.json"));
-});
-
-app.get("/linux", (req, res) => {
-  res.header("Content-Type", "application/json");
-  res.sendFile(path.join(__dirname, "data/linux.json"));
-});
-
-app.get("/ios", (req, res) => {
-  res.header("Content-Type", "application/json");
-  res.sendFile(path.join(__dirname, "data/ios.json"));
-});
-
 app.listen(port, () => {
   console.log(`API listening at http://localhost:8080`);
 });
