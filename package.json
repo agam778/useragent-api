@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/agam778/useragent-api#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.2"
   }
 }
